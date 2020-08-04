@@ -16,5 +16,8 @@ public void demo(String urlname) {
 public void secondtest(){
 	System.out.println("bye");
 }
-
+@Test
+public void thirdtest(){
+	System.out.println("byesecond test");
+}
 }
