@@ -24,4 +24,7 @@ public void thirdtest(){
 public void foourth(){
 	System.out.println("byethird test");
 }
+public void fifth(){
+	System.out.println("byefourth test");
+}
 }
