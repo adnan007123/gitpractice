@@ -20,4 +20,8 @@ public void secondtest(){
 public void thirdtest(){
 	System.out.println("byesecond test");
 }
+@Test
+public void foourth(){
+	System.out.println("byethird test");
+}
 }
