@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [loan_department]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Personal_loan(failed)">
+    <classes>
+      <class name="com.seleniumproject.Testcases.testcase1">
+        <methods>
+          <include name="setup"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- com.seleniumproject.Testcases.testcase1 -->
+    </classes>
+  </test> <!-- Personal_loan(failed) -->
+</suite> <!-- Failed suite [loan_department] -->

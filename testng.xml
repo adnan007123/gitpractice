@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Loan Department">
+  
+  <test name="Personal Loan">
+  
+ <classes>
+   
+         	 <class name="practivetestng.day1">
+         	 <methods>
+         	 <include name = 'demo'/>
+         	 </methods>
+         	 </class>
+         	 
+         	 
+                  <class name="practivetestng.day2"/>
+                   <class name="practivetestng.day4"/>
+          </classes>
+    </test>      
+          
+    <test name="Car Loan">
+   <classes>
+   			<class name="practivetestng.day3">
+    <methods>
+    <exclude name = "mobilelogincarloan"/>
+    <!-- <exclude name = "mobile.*"/> in regular expression if we need to remove all test cases starting from mobile -->
+
+    </methods>
+    </class>
+    
+     </classes>     
+  </test> 
+</suite>

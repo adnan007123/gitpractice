@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="val" value="D://chromeandfirefoxdriver//chromedriver.exe"/>
+    <parameter name="url" value="http://www.google.com"/>
+    <parameter name="key" value="webdriver.chrome.driver"/>
+    <classes>
+      <class name="testng.day5">
+        <methods>
+          <include name="urlf"/>
+          <include name="init" invocation-numbers="0"/>
+          <include name="sectest"/>
+          <include name="firsttest"/>
+        </methods>
+      </class> <!-- testng.day5 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

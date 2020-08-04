@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="10" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-29T12:08:27Z" name="Loan Department" finished-at="2020-07-29T12:08:27Z" duration-ms="208">
+    <groups>
+    </groups>
+    <test started-at="2020-07-29T12:08:27Z" name="regression" finished-at="2020-07-29T12:08:27Z" duration-ms="208">
+      <class name="practivetestng.day4">
+        <test-method signature="loginapihomeloan()[pri:0, instance:practivetestng.day4@16150369]" started-at="2020-07-29T12:08:27Z" name="loginapihomeloan" finished-at="2020-07-29T12:08:27Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginapihomeloan -->
+        <test-method signature="webloginhomeloan()[pri:0, instance:practivetestng.day4@16150369]" started-at="2020-07-29T12:08:27Z" name="webloginhomeloan" finished-at="2020-07-29T12:08:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginhomeloan -->
+      </class> <!-- practivetestng.day4 -->
+      <class name="practivetestng.day3">
+        <test-method signature="weblogincarloan()[pri:0, instance:practivetestng.day3@6b09fb41]" started-at="2020-07-29T12:08:27Z" name="weblogincarloan" finished-at="2020-07-29T12:08:27Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weblogincarloan -->
+        <test-method signature="loginapicarloan()[pri:0, instance:practivetestng.day3@6b09fb41]" started-at="2020-07-29T12:08:27Z" name="loginapicarloan" finished-at="2020-07-29T12:08:27Z" depends-on-methods="practivetestng.day3.weblogincarloan" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginapicarloan -->
+      </class> <!-- practivetestng.day3 -->
+      <class name="practivetestng.day2">
+        <test-method signature="prequiste()[pri:0, instance:practivetestng.day2@4b520ea8]" started-at="2020-07-29T12:08:27Z" name="prequiste" finished-at="2020-07-29T12:08:27Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prequiste -->
+      </class> <!-- practivetestng.day2 -->
+      <class name="practivetestng.day1">
+        <test-method signature="demo()[pri:0, instance:practivetestng.day1@5a5a729f]" started-at="2020-07-29T12:08:27Z" name="demo" finished-at="2020-07-29T12:08:27Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="secondtest()[pri:0, instance:practivetestng.day1@5a5a729f]" started-at="2020-07-29T12:08:27Z" name="secondtest" finished-at="2020-07-29T12:08:27Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondtest -->
+      </class> <!-- practivetestng.day1 -->
+    </test> <!-- regression -->
+  </suite> <!-- Loan Department -->
+</testng-results>

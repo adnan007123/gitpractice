@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+  
+  <test name="Test">
+  
+  <parameter name = "url"  value = "http://www.google.com"/>
+  <parameter name = "val" value = "D://chromeandfirefoxdriver//chromedriver.exe"/>
+  <parameter name = "key" value = "webdriver.chrome.driver"/>  
+  
+ <classes>
+   
+          <class name="testng.day5"/>
+          </classes>
+  
+  
+  
+  </test> <!-- Test -->
+
+  
+</suite> <!-- Suite -->
